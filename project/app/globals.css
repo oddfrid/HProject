@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-outline {
+  @apply focus-visible:ring-2 ring-offset-4 outline-none ring-primary/50 ring-offset-inherit rounded 
+}
+
+.my-link {
+  @apply my-outline transition-all duration-300 text-slate-500 hover:text-primary font-semibold
+}

@@ -1,0 +1,8 @@
+* project\package.json 
+"tail": "tailwindcss build -i app/globals.css -o public/styles.css" 
+Посмотреть для Next 13
+
+* Сделать свой Marquee
+
+* project\app\globals.css
+Заменить ring-offset-inherit на цвет фона хедера
