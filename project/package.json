@@ -1,0 +1,29 @@
+{
+  "name": "with-turbopack",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^4.16.1",
+    "@tanstack/react-router": "^0.0.1-beta.25",
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.9",
+    "eslint": "8.27.0",
+    "eslint-config-next": "13.0.3",
+    "jotai": "^1.10.0",
+    "next": "13.0.3",
+    "react": "18.2.0",
+    "react-charts": "^3.0.0-beta.50",
+    "react-dom": "18.2.0",
+    "tailwindcss": "^3.2.4",
+    "typescript": "4.9.3",
+    "zod": "^3.19.1",
+    "zustand": "^4.1.4"
+  }
+}
