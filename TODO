@@ -6,3 +6,7 @@
 
 * project\app\globals.css
 Заменить ring-offset-inherit на цвет фона хедера
+
+* Dockerfile и  Docker-compose
+
+* Выбрать шрифт, определить размеры заголовков, текста и тд
