@@ -131,10 +131,6 @@ export const Header: React.FC = () => {
           </svg>
         </ImageIcon>
       </div>
-
-      <h1 className="mt-3 text-3xl bg-gradient-to-r from-green-300 to-cyan-300 hover:from-green-300 hover:via-red-300 hover:to-cyan-300">
-        <span className="">Привет, xvj!</span>
-      </h1>
     </header>
   )
 }

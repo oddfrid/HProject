@@ -1,7 +1,8 @@
 /* eslint-disable @next/next/no-head-element */
 // import { Inter } from '@next/font/google'
-import { Header } from '../components/layout/header/Header';
-import './styles.css';
+import { Footer } from "../components/layout/footer/Footer"
+import { Header } from "../components/layout/header/Header"
+import "./styles.css"
 
 // const inter = Inter({
 //   variable: '--font-main',
@@ -10,16 +11,17 @@ import './styles.css';
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
-    <html  
+    <html
     // className={inter.className}
     >
-      <body>
+      <body className="flex flex-col min-h-screen">
         <Header />
-        <main>{children}</main>
+        <main >{children}</main>
+        <Footer />
       </body>
     </html>
-  );
+  )
 }

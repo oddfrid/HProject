@@ -576,8 +576,12 @@ video {
   margin-right: 0.75rem;
 }
 
-.mt-3 {
-  margin-top: 0.75rem;
+.mt-auto {
+  margin-top: auto;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .flex {
@@ -588,8 +592,16 @@ video {
   display: none;
 }
 
+.h-\[calc\(100vh-52rem\)\] {
+  height: calc(100vh - 52rem);
+}
+
 .h-9 {
   height: 2.25rem;
+}
+
+.h-40 {
+  height: 10rem;
 }
 
 .h-6 {
@@ -598,6 +610,34 @@ video {
 
 .h-12 {
   height: 3rem;
+}
+
+.h-\[calc\(100vh-52px\)\] {
+  height: calc(100vh - 52px);
+}
+
+.h-\[calc\(100vh-196px\)\] {
+  height: calc(100vh - 196px);
+}
+
+.h-\[calc\(100vh-200px\)\] {
+  height: calc(100vh - 200px);
+}
+
+.h-\[calc\(100vh-220px\)\] {
+  height: calc(100vh - 220px);
+}
+
+.h-\[calc\(100vh-13rem\)\] {
+  height: calc(100vh - 13rem);
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.w-1\/5 {
+  width: 20%;
 }
 
 .w-48 {
@@ -672,6 +712,19 @@ video {
   border-radius: 9999px;
 }
 
+.border {
+  border-width: 1px;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-blue-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(96 165 250 / var(--tw-border-opacity));
+}
+
 .bg-slate-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
@@ -682,18 +735,16 @@ video {
   background-color: rgb(96 165 250 / var(--tw-bg-opacity));
 }
 
-.bg-gradient-to-r {
-  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+.p-48 {
+  padding: 12rem;
 }
 
-.from-green-300 {
-  --tw-gradient-from: #86efac;
-  --tw-gradient-to: rgb(134 239 172 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+.p-4 {
+  padding: 1rem;
 }
 
-.to-cyan-300 {
-  --tw-gradient-to: #67e8f9;
+.p-8 {
+  padding: 2rem;
 }
 
 .px-3 {
@@ -709,6 +760,10 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .text-slate-500 {
@@ -809,21 +864,6 @@ video {
 .hover\:bg-slate-300:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(203 213 225 / var(--tw-bg-opacity));
-}
-
-.hover\:from-green-300:hover {
-  --tw-gradient-from: #86efac;
-  --tw-gradient-to: rgb(134 239 172 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.hover\:via-red-300:hover {
-  --tw-gradient-to: rgb(252 165 165 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), #fca5a5, var(--tw-gradient-to);
-}
-
-.hover\:to-cyan-300:hover {
-  --tw-gradient-to: #67e8f9;
 }
 
 .focus-visible\:ring-2:focus-visible {
